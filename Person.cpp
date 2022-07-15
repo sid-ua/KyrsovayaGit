@@ -66,17 +66,7 @@ Workmen::Workmen(std::string tmp_fullname, int tmp_height, int tmp_weight,
     Workmen::checkInput();
 }
 
-bool Workmen::isHeight()
-{
-    if (getHeight() >= 200)
-        return true;
-}
 
-bool Workmen::isInUkraine()
-{
-    if (getCountry() == "Ukraine")
-        return true;
-}
 
 std::string Workmen::Info()
 {
@@ -113,17 +103,7 @@ Electrician::Electrician(std::string tmp_fullname, int tmp_height, int tmp_weigh
     Electrician::checkInput();
 }
 
-bool Electrician::isHeight()
-{
-    if (getHeight() >= 200)
-        return true;
-}
 
-bool Electrician::isInUkraine()
-{
-    if (getCountry() == "Ukraine")
-        return true;
-}
 
 //bool Electrician::isCanWork()
 //{
